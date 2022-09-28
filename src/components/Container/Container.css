@@ -1,9 +1,12 @@
+.main-div {
+	background-color: aliceblue;
+}
+
 .main-container {
 	display: grid;
 	grid-template-columns: 4fr 1fr;
 	/* padding: 20px; */
 	padding-left: 50px;
-	background-color: aliceblue;
 }
 .aside-container {
 	display: grid;
@@ -21,4 +24,7 @@ h3 {
 .cart-container {
 	background-color: #fff;
 	padding: 20px;
+}
+.blog {
+	margin: 50px;
 }
