@@ -3,81 +3,90 @@
 		"id": "63345fb7a17b9b15bfc48258",
 		"picture": "https://media.istockphoto.com/photos/fitness-woman-squatting-with-kettle-bell-picture-id1149242178?s=612x612",
 		"age": 29,
-        "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Rodriguez Burns",
 		"gender": "male",
+		"time": 30,
 		"phone": "+1 (812) 527-3964"
 	},
 	{
 		"id": "63345fb77996357c2c7aa5da",
 		"picture": "https://media.istockphoto.com/photos/man-doing-cross-training-exercise-with-rope-picture-id1149241593?k=20&m=1149241593&s=612x612&w=0&h=5ruCe1XVMWr282VeyUioWfdMoUmh032Gf4aTSBOXVbI=",
 		"age": 34,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Stacie Jenkins",
 		"gender": "female",
+		"time": 35,
 		"phone": "+1 (878) 532-2304"
 	},
 	{
 		"id": "63345fb78d14d7871b270cc2",
 		"picture": "https://media.istockphoto.com/photos/difficult-doesnt-mean-impossible-picture-id615883260?k=20&m=615883260&s=612x612&w=0&h=n1J3fO1gouDYs_LrRaBIh7_k-ynzLdfE3fZ0wBB0Jjo=",
 		"age": 28,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Cleveland Michael",
 		"gender": "male",
+		"time": 38,
 		"phone": "+1 (902) 451-2047"
 	},
 	{
 		"id": "63345fb7a71cd0c703ac8050",
 		"picture": "https://media.istockphoto.com/photos/holding-weight-and-sitting-picture-id1277242852?k=20&m=1277242852&s=612x612&w=0&h=Dg6gW_DYe523AMW-8c-LeN7bVP8Fmckrlf_TBQEttX0=",
 		"age": 38,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Elnora Johnson",
 		"gender": "female",
+		"time": 28,
 		"phone": "+1 (869) 573-2212"
 	},
 	{
 		"id": "63345fb74d63615d5357827b",
 		"picture": "https://media.istockphoto.com/photos/happy-father-looking-at-cheerful-son-and-exercising-with-dumbbells-picture-id1188433175?k=20&m=1188433175&s=612x612&w=0&h=8zcWoFkEirQX3uOPkj9SfgQrD-52HtJkA6qez7UKAt0=",
 		"age": 32,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Langley Farley",
 		"gender": "male",
+		"time": 40,
 		"phone": "+1 (807) 442-2783"
 	},
 	{
 		"id": "63345fb75b065cf621a63c89",
 		"picture": "https://media.istockphoto.com/photos/personal-weight-training-in-the-gym-picture-id1084251084?k=20&m=1084251084&s=612x612&w=0&h=94SZbjP9AdUuDVt_12o4NWuRA-FLyR-DpzTsGDPDL8U=",
 		"age": 35,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Mindy Rosa",
 		"gender": "female",
+		"time": 38,
 		"phone": "+1 (891) 548-3489"
 	},
 	{
 		"id": "63345fb7afbbd82b7d5c7f21",
 		"picture": "https://media.istockphoto.com/photos/be-as-strong-as-you-were-born-to-be-picture-id1279902517?k=20&m=1279902517&s=612x612&w=0&h=RlVc-49u3noWYHy0XE4IHvRuKD3_kfelklxIGrYz9bI=",
 		"age": 33,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Golden Newton",
 		"gender": "male",
+		"time": 30,
 		"phone": "+1 (874) 437-3989"
-	}
+	},
 	{
 		"id": "63345fb7afbbd82b7d5c7f21",
 		"picture": "https://media.istockphoto.com/photos/determined-man-doing-push-ups-at-the-gym-picture-id1149242526?k=20&m=1149242526&s=612x612&w=0&h=rNol4F0lcWeYOX1sScnWuqP1qcQ0SNulQWrsYCFD7nM=",
 		"age": 33,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Golden Newton",
 		"gender": "male",
+		"time": 33,
 		"phone": "+1 (874) 437-3989"
-	}
+	},
 	{
 		"id": "63345fb7afbbd82b7d5c7f21",
 		"picture": "https://media.istockphoto.com/photos/strong-man-lifting-weight-at-gym-picture-id1149242897?k=20&m=1149242897&s=612x612&w=0&h=3ZRcaNDqfYveRj7WOfMr6i9ejle98K-SiWDWEgM8F_c=",
 		"age": 33,
-         "description":"We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
+		"description": "We're the only semi-private fitness training facility in Newport Beach Ca. Our gym is exclusive and 24/7.Work with talented and professional trainer. Choice your trainer and find your fitness solution.",
 		"name": "Golden Newton",
 		"gender": "male",
+		"time": 42,
 		"phone": "+1 (874) 437-3989"
 	}
 ]
