@@ -1,8 +1,17 @@
 import React from 'react';
 import profile from '../../20200702_202732.jpg'
 import './Cart.css'
+import {ToastContainer, toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart=() => {
+
+    const showToastMessage=() => {
+        toast.dark('Successfully Selected', {
+            position: toast.POSITION.TOP_CENTER
+        });
+    }
+
     return (
         <div className='cart'>
             {/* Profile section start*/}
@@ -56,7 +65,8 @@ const Cart=() => {
             </div>
             {/* exercise section end */}
 
-            <button className='btn'>Selection Completed</button>
+            <button onClick={showToastMessage} className='btn'>Selection Completed</button>
+            <ToastContainer />
         </div>
     );
 };
