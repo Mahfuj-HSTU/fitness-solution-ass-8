@@ -5,6 +5,7 @@ import './Cart.css'
 const Cart=() => {
     return (
         <div className='cart'>
+            {/* Profile section start*/}
             <div className="profile-container">
                 <div className="profile">
                     <img src={profile} alt="" />
@@ -28,10 +29,20 @@ const Cart=() => {
                     </div>
                 </div>
             </div>
+            {/* profile section end */}
 
-
-
-            <div className="break"></div>
+            {/* break section start */}
+            <div className="break">
+                <h3>Add a Break</h3>
+                <div className="break-btn">
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                    <button>50s</button>
+                </div>
+            </div>
+            {/* break section end */}
             <div className="details"></div>
         </div>
     );

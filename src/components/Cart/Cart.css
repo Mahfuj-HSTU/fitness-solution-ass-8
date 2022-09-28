@@ -30,3 +30,21 @@
 	line-height: 0;
 	padding-bottom: 5px;
 }
+.break {
+	margin-top: 50px;
+}
+.break-btn {
+	background-color: #eaf1f7;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+.break-btn button {
+	background-color: #fff;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 8px 5px;
+	border-radius: 50%;
+}
