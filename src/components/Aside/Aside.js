@@ -8,7 +8,7 @@ const Aside=(props) => {
         <div className='aside'>
             <img src={picture} alt="" />
             <div>
-                <h3>Trainer Name: {name}</h3>
+                <h2>Trainer Name: {name}</h2>
                 <p>{description}</p>
                 <h5>Age: {age}</h5>
                 <h4>Time required : {time}s</h4>

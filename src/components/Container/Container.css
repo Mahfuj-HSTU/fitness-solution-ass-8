@@ -1,10 +1,20 @@
 .main-container {
 	display: grid;
 	grid-template-columns: 4fr 1fr;
-	margin: 20px;
-	margin-left: 50px;
+	/* padding: 20px; */
+	padding-left: 50px;
+	background-color: aliceblue;
 }
 .aside-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+}
+h1 {
+	font-size: 36px;
+	color: rgb(191, 122, 255);
+}
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 0;
 }

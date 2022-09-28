@@ -15,7 +15,7 @@ const Container=() => {
     return (
         <div className='main-container'>
             <div >
-                <h1>Your Fitness Solution</h1>
+                <h1>YOUR-FITNESS SOLUTIONS</h1>
                 <h3>Choices your Trainer</h3>
                 <div className="aside-container">
                     {
