@@ -9,7 +9,7 @@ const Cart=() => {
             <div className="profile-container">
                 <div className="profile">
                     <img src={profile} alt="" />
-                    <div className='details'>
+                    <div className='detail'>
                         <h4>Mahfujur Rahman</h4>
                         <p>Frontend Devloper</p>
                     </div>
@@ -43,7 +43,20 @@ const Cart=() => {
                 </div>
             </div>
             {/* break section end */}
-            <div className="details"></div>
+
+            {/* exercise section start*/}
+            <div className="details">
+                <h3>Exercise Details</h3>
+                <div className='ex-time'>
+                    <h4>Exercise Time</h4>
+                </div>
+                <div className='br-time'>
+                    <h4>Break Time</h4>
+                </div>
+            </div>
+            {/* exercise section end */}
+
+            <button className='btn'>Selection Completed</button>
         </div>
     );
 };

@@ -1,3 +1,7 @@
+.cart {
+	position: sticky;
+	top: 10px;
+}
 .profile {
 	display: flex;
 }
@@ -6,15 +10,15 @@
 	height: 50px;
 	border-radius: 50%;
 }
-.details {
+.detail {
 	margin-left: 10px;
 }
-.details h4 {
+.detail h4 {
 	margin-top: 12px;
 	line-height: 2px;
 	font-size: 18px;
 }
-.details p {
+.detail p {
 	line-height: 0;
 	margin: 0;
 }
@@ -30,12 +34,14 @@
 	line-height: 0;
 	padding-bottom: 5px;
 }
-.break {
-	margin-top: 50px;
+.break,
+.details {
+	margin-top: 60px;
 }
 .break-btn {
+	margin-top: 30px;
 	background-color: #eaf1f7;
-	padding: 20px 10px;
+	padding: 15px 10px;
 	display: flex;
 	justify-content: space-between;
 	border-radius: 10px;
@@ -47,4 +53,32 @@
 	font-weight: 600;
 	padding: 8px 5px;
 	border-radius: 50%;
+	cursor: pointer;
+}
+.break-btn button:hover {
+	background-color: #1818de;
+	color: #fff;
+}
+.ex-time,
+.br-time {
+	margin-top: 40px;
+	background-color: #eaf1f7;
+	padding: 2px 10px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.btn {
+	margin-top: 60px;
+	width: 100%;
+	background-color: #5151ff;
+	border: none;
+	border-radius: 15px;
+	padding: 12px 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #1818de;
 }
