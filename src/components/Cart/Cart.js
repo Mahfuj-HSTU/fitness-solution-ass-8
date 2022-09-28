@@ -4,12 +4,18 @@ import './Cart.css'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Cart=() => {
-
+const Cart=({cart}) => {
+    // console.log(cart)
     const showToastMessage=() => {
         toast.dark('Successfully Selected', {
             position: toast.POSITION.TOP_CENTER
         });
+    }
+
+    let totalTime=0;
+
+    for(const trainer of cart) {
+        totalTime=totalTime+trainer.time;
     }
 
     return (
@@ -57,10 +63,10 @@ const Cart=() => {
             <div className="details">
                 <h3>Exercise Details</h3>
                 <div className='ex-time'>
-                    <h4>Exercise Time</h4>
+                    <h4>Exercise Time : {totalTime} </h4>
                 </div>
                 <div className='br-time'>
-                    <h4>Break Time</h4>
+                    <h4>Break Time :  </h4>
                 </div>
             </div>
             {/* exercise section end */}
