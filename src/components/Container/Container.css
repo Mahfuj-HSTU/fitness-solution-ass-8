@@ -18,3 +18,7 @@ h3 {
 	font-weight: 500;
 	line-height: 0;
 }
+.cart-container {
+	background-color: #fff;
+	padding: 20px;
+}

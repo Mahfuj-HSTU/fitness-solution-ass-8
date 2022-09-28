@@ -1,0 +1,32 @@
+.profile {
+	display: flex;
+}
+.profile img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.details {
+	margin-left: 10px;
+}
+.details h4 {
+	margin-top: 12px;
+	line-height: 2px;
+	font-size: 18px;
+}
+.details p {
+	line-height: 0;
+	margin: 0;
+}
+.info {
+	margin-top: 50px;
+	background-color: #eaf1f7;
+	padding: 0px 15px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.info p {
+	line-height: 0;
+	padding-bottom: 5px;
+}
