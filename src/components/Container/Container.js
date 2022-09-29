@@ -5,6 +5,7 @@ import Aside from '../Aside/Aside';
 import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
 import './Container.css';
+import Footer from '../Footer/Footer';
 
 const Container=() => {
     const [trainers, setTrainer]=useState([])
@@ -40,6 +41,9 @@ const Container=() => {
             </div>
             <div className="blog">
                 <Blog></Blog>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </div>
     );

@@ -1,12 +1,10 @@
 .main-div {
 	background-color: aliceblue;
-	/* background-color: rgb(59, 105, 146); */
 }
 
 .main-container {
 	display: grid;
 	grid-template-columns: 4fr 1fr;
-	/* padding: 20px; */
 	padding-left: 50px;
 }
 .aside-container {
@@ -30,8 +28,9 @@ h3 {
 .blog {
 	width: auto;
 	margin: 50px;
+	margin-right: 30px;
 	margin-bottom: 0;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	text-align: justify;
 }
 
