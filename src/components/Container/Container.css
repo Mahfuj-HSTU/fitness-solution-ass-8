@@ -1,5 +1,6 @@
 .main-div {
 	background-color: aliceblue;
+	/* background-color: rgb(59, 105, 146); */
 }
 
 .main-container {
@@ -11,6 +12,7 @@
 .aside-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
 }
 h1 {
 	font-size: 36px;
@@ -26,5 +28,62 @@ h3 {
 	padding: 20px;
 }
 .blog {
+	width: auto;
 	margin: 50px;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-container {
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	.aside-container,
+	.cart-container {
+		display: block;
+	}
+	.cart-container {
+		margin: 10px;
+		margin-top: 40px;
+		border-radius: 20px;
+	}
+	.blog h3 {
+		line-height: normal;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+	.main-container {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.aside-container,
+	.cart-container {
+		display: block;
+		/* padding: 20px; */
+	}
+	.cart-container {
+		margin: 10px;
+		border-radius: 20px;
+	}
+	.aside-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	.main-container {
+		display: block;
+	}
+	.aside-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 40px;
+	}
 }
