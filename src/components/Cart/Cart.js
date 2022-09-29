@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import profile from '../../20200702_202732.jpg'
 import './Cart.css'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Cart=({cart}) => {
+
+    const [Break, setBreak]=useState([])
+
+
     // console.log(cart)
     const showToastMessage=() => {
         toast.dark('Successfully Selected', {
@@ -12,11 +16,28 @@ const Cart=({cart}) => {
         });
     }
 
+
+
     let totalTime=0;
 
     for(const trainer of cart) {
         totalTime=totalTime+trainer.time;
     }
+
+    // break time
+    const handleBreakTime=(Break) => {
+        // console.log(Break);
+        localStorage.setItem('time', Break)
+        setBreak(Break)
+    }
+
+    // get from local storage
+    useEffect(() => {
+        const localStorageData=localStorage.getItem('time')
+        // console.log(localStorageData)
+        setBreak(localStorageData)
+    }, [])
+
 
     return (
         <div className='cart'>
@@ -50,11 +71,11 @@ const Cart=({cart}) => {
             <div className="break">
                 <h3>Add a Break</h3>
                 <div className="break-btn">
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
+                    <button onClick={() => handleBreakTime(10)}>10s</button>
+                    <button onClick={() => handleBreakTime(20)}>20s</button>
+                    <button onClick={() => handleBreakTime(30)}>30s</button>
+                    <button onClick={() => handleBreakTime(40)}>40s</button>
+                    <button onClick={() => handleBreakTime(50)}>50s</button>
                 </div>
             </div>
             {/* break section end */}
@@ -66,7 +87,7 @@ const Cart=({cart}) => {
                     <h4>Exercise Time : {totalTime} </h4>
                 </div>
                 <div className='br-time'>
-                    <h4>Break Time :  </h4>
+                    <h4>Break Time : {Break} </h4>
                 </div>
             </div>
             {/* exercise section end */}

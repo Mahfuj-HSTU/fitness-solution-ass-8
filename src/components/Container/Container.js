@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faDumbbell} from '@fortawesome/free-solid-svg-icons';
 import Aside from '../Aside/Aside';
 import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
@@ -17,7 +19,6 @@ const Container=() => {
     const handleAddToList=(trainer) => {
         // console.log(trainer);
         const newCart=[...cart, trainer]
-        // const newTime = ()
         setCart(newCart)
     }
 
@@ -25,7 +26,7 @@ const Container=() => {
         <div className='main-div'>
             <div className='main-container'>
                 <div >
-                    <h1>YOUR-FITNESS SOLUTIONS</h1>
+                    <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> YOUR-FITNESS SOLUTIONS</h1>
                     <h3>Choices your Trainer</h3>
                     <div className="aside-container">
                         {
